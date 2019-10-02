@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <title>Cookie It Yourself</title>
+        <link rel="stylesheet" href="CIYrecipe.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+	    <header id="capa">
+            <div>
+                <img src="img/Logo.png" alt="Cookie It Yourself" class="logo">
+            </div>
+        </header>
+
+        <center>
+            <div class="colado" id="nav">
+
+                <button onclick="home()" class="reta">
+                    Home
+                </button>
+
+                <button onclick="receitas()" class="reta">
+                    Receitas
+                </button>
+
+                <button onclick="sobre()" class="reta">
+                    Sobre
+                </button>
+
+            </div>
+        </center>
+
+        <!--------------------------------------------------------------------------------------------------->
+        
+        <h1 class="centralizado">Panqueca</h1>
+        <img src="img/pancake.jpg">
+
+        <div class="rounded_border">
+            <h2 class="centralizado">Para fazer suas panquecas você irá precisar de:</h2>
+                <ul class="content ingredientes">
+
+                    <li>1 Xícara (chá) farinha de trigo.</li>
+                    <li>1 Xícara (chá) leite.</li>
+                    <li>1 Ovo.</li>
+                    <li>1 Colher (sopa) margarina sem sal.</li>
+                    <li>½ Colher (sopa) Fermento em pó.</li>
+                    <li>4 Colheres (sopa) Achocolatado</li>
+
+                </ul>
+        </div>
+
+        <!--------------------------------------------------------------------------------------------------->
+
+        <div class="rounded_border">
+
+            <div>
+                <h2 class="centralizado">Modo de preparo:</h2>   
+                    <ul class="content preparo">
+
+                        <li>Em um liquidificador coloque primeiro o leite, o ovo e margarina e bata.</li>
+                        <li>Em seguida coloque a farinha, o achocolatado e o fermento e bata novamente até formar bolinhas de ar na massa dentro do liquidificador.</li>
+                        <li>Aqueça uma frigideira antiaderente (ou unte com um pouco de margarina) e despeje 1 concha de massa, faça movimentos circulares e espere fritar e vire do outro lado.</li>
+                        <li>Repita o processo até ter fritado toda a massa.</li>
+
+                    </ul> 
+            </div>
+
+            <div>
+                <h2 class="centralizado">Após estes passos suas panquecas estarão prontas para servir!</h2> <br>
+            </div>
+
+        </div>
+
+        <!--------------------------------------------------------------------------------------------------->
+    
+            <div class="coluna left" style="background-color: #59473f">
+                <div></div>
+                <div class="fundinho">
+                    <h2>Fundadores</h2>
+
+                        <li  style="list-style: none">Letícia Santos de Oliveira</li>
+                        <li  style="list-style: none">Vinicius Fábio Amorim</li>
+
+                </div>
+            </div>
+
+        <!--------------------------------------------------------------------------------------------------->
+        
+            <div class="coluna center" style="background-color: #59473f">
+                <div></div>
+                <div class="fundinho">
+                    <h2>Navegue no site</h2>
+
+                    <li onclick="home()">Home</li> 
+                    <li onclick="receitas()">Receitas</li>
+                    <li onclick="logo()">Logo</li>
+                    <li onclick="sobre()">Quem somos</li>
+
+                </div>
+            </div>
+
+        <!--------------------------------------------------------------------------------------------------->
+    
+            <div class="coluna right" style="background-color: #59473f">
+                <div></div>
+                <div class="fundinho">
+                    <h2>Fale conosco!</h2>
+
+                        <li onclick="em()">Email</li> 
+                        <li onclick="tt()">Twitter</li> 
+                        <li onclick="fb()">Facebook</li>  
+                        <small style="text-align: left; padding-left: 200px;" >Copyright©2019 </small>
+
+                </div>
+            </div>
+
+        <!--------------------------------------------------------------------------------------------------->
+
+            <script type="text/javascript">
+                function sobre()
+                    {
+                         location.href="about.html"
+                    }
+                function home()
+                    {
+                        location.href="index.html"
+                    }
+                function receitas()
+                    {
+                        location.href="img/linkão.jpg"
+                    } 
+                function pancake()
+                    {
+                        location.href="pancake.html"
+                    }
+                function cookies()
+                    {
+                        location.href="cookie.html"
+                    }
+                function brigadeiro()
+                    {
+                        location.href="brigadeiro.html"
+                    }
+                function em()
+                    {
+                        location.href="img/linkão.jpg"
+                    }
+                function tt()
+                    {
+                        location.href="img/linkão.jpg"
+                    }
+                function fb()
+                    {
+                        location.href="img/linkão.jpg"
+                    }
+                function logo()
+                    {
+                        location.href="#top"
+                    }
+
+        </script>
+        
+    </body>
+</html>

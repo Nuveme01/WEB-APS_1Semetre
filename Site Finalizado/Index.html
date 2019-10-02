@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="eng">
+    
+    <head>
+
+        <meta charset="UTF-8">
+        <title>Cookie It Yourself </title>
+        <link rel="stylesheet" href="CIYIndex.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    
+    </head>
+
+    <body>
+
+        <header>
+            <div>
+                <img src="img/Logo.png" alt="Cookie It Yourself" class="logo">
+            </div>
+        </header>
+
+        <center>
+            <div class="colado">
+
+                <button onclick="home()" class="reta">
+                    Home
+                </button>
+
+                <button onclick="receitas()" class="reta">
+                    Receitas
+                </button>
+
+                <button onclick="sobre()" class="reta">
+                    Sobre
+                </button>
+
+            </div>
+        </center>
+
+        <div>
+            <h1 class="subtitulo">
+                Bem vindo ao nosso delicioso site!
+            </h1>
+        </div>
+
+        <div  class="content">
+            <p>Nosso site está repleto de receitas super fáceis para que você possa fazer mesmo quando não tenha planejado algo.</p>
+            <p>Venha aproveitar nossa variedade de receitas doces, das mais fáceis e coriqueiras até as mais complexas dignas de mestrecucas!</p>
+        </div>
+
+        <div id="title">
+            <h1 class="subtitulo">
+                Principais receitas do site
+            </h1>
+        </div>
+
+        <div class="row">
+
+            <!---------------------------------------------------------------------------------------------------------->
+
+            <div onclick="cookies()" class="coluna left" style="background-color: #6d6057">
+                <div id="cookie"></div>
+                <div>
+                    <h1>Os cookies que todos gostam você encontra aqui!</h1>
+                </div>
+            </div>
+
+            <!---------------------------------------------------------------------------------------------------------->
+
+            <div onclick="pancake()" class="coluna center" style="background-color: #59473f">
+                <div id="pancake"></div>
+                <div>
+                    <h1>Faça panquecas de forma fácil e rápida!</h1>
+                </div>
+            </div>
+
+            <!---------------------------------------------------------------------------------------------------------->
+
+            <div onclick="brigadeiro()" class="coluna right" style="background-color: #987557">
+                <div id="brigadeiro"></div>
+                <div> 
+                    <h1>Aprenda a fazer um delicioso brigadeiro aqui!</h1>
+                </div>
+            </div>
+        
+            <!---------------------------------------------------------------------------------------------------------->
+
+        </div>
+
+            <!---------------------------------------------------------------------------------------------------------->
+
+            <div class="coluna_fundo left" style="background-color: #59473f">
+                <div class="fundinho">
+                    <h2>Fundadores</h2>
+
+                        <li  style="list-style: none">Letícia Santos de Oliveira</li>
+                        <li  style="list-style: none">Vinicius Fábio Amorim</li>
+                
+                </div>
+            </div>
+
+            <!---------------------------------------------------------------------------------------------------------->
+
+            <div class="coluna_fundo center" style="background-color: #59473f">
+                <div class="fundinho">
+                    <h2>Navegue no site</h2>
+
+                        <li onclick="home()">Home</li> 
+                        <li onclick="receitas()">Receitas</li>
+                        <li onclick="logo()">Logo</li>
+                        <li onclick="sobre()">Quem somos</li>
+                
+                </div>
+            </div>
+
+            <!---------------------------------------------------------------------------------------------------------->
+
+            <div class="coluna_fundo right" style="background-color: #59473f">
+                <div></div>
+                <div class="fundinho">
+                    <h2>Fale conosco!</h2>
+
+                        <li onclick="em()">Email</li> 
+                        <li onclick="tt()">Twitter</li> 
+                        <li onclick="fb()">Facebook</li> 
+                        <small style="text-align: left; padding-left: 200px;" >Copyright©2019 </small>
+                
+                </div>
+            </div>
+
+            <!---------------------------------------------------------------------------------------------------------->
+
+            <script type="text/javascript">
+                function sobre()
+                    {
+                         location.href="about.html"
+                    }
+                function home()
+                    {
+                        location.href="index.html"
+                    }
+                function receitas()
+                    {
+                        location.href="img/linkão.jpg"
+                    } 
+                function pancake()
+                    {
+                        location.href="pancake.html"
+                    }
+                function cookies()
+                    {
+                        location.href="cookie.html"
+                    }
+                function brigadeiro()
+                    {
+                        location.href="brigadeiro.html"
+                    }
+                function em()
+                    {
+                        location.href="img/linkão.jpg"
+                    }
+                function tt()
+                    {
+                        location.href="img/linkão.jpg"
+                    }
+                function fb()
+                    {
+                        location.href="img/linkão.jpg"
+                    }
+                function logo()
+                    {
+                        location.href="#top"
+                    }
+
+            </script>
+    </body>
+</html>

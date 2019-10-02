@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <title>Cookie It Yourself</title>
+        <link rel="stylesheet" href="CIYrecipe.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+	    <header id="capa">
+            <div>
+                <img src="img/Logo.png" alt="Cookie It Yourself" class="logo">
+            </div>
+        </header>
+
+        <center>
+            <div class="colado" id="nav">
+
+                <button onclick="home()" class="reta">
+                    Home
+                </button>
+
+                <button onclick="receitas()" class="reta">
+                    Receitas
+                </button>
+
+                <button onclick="sobre()" class="reta">
+                    Sobre
+                </button>
+
+            </div>
+        </center>
+
+        <!--------------------------------------------------------------------------------------------------->
+
+        <h1 class="centralizado">Cookie</h1>
+        <img src="img/cookie.jpg" alt="Cookie">
+
+        <div class="rounded_border">
+            <h2 class="centralizado">Para fazer seus cookies você irá precisar de:</h2>
+                <ul class="ingredientes content">
+
+                    <li>125 g de manteiga sem sal em temperatura ambiente.</li>
+                    <li>3/4 xícara de açúcar.</li>
+                    <li>1/2 xícara de açúcar mascavo.</li>
+                    <li>1 ovo.</li>
+                    <li>1 e 3/4 xícara de farinha de trigo.</li>
+                    <li>1 colher (chá) de fermento em pó.</li>
+                    <li>300 g de chocolate meio amargo picado.</li>
+                    <li>1 colher (chá) de essência de baunilha.</li>
+                    <li>Para fazer cookie de chocolate acrescentar 1/4 xícara de chocolate em pó.</li>
+
+                </ul>
+        </div>
+
+        <!--------------------------------------------------------------------------------------------------->
+
+        <div class="rounded_border">
+
+            <div>
+                <h2 class="centralizado">Modo de preparo:</h2>
+                    <ul class="preparo content">
+
+                        <li>Misture a manteiga, açúcar mascavo, açúcar, essência de baunilha (e chocolate em pó, se for fazer cookies com base de chocolate).</li>
+                        <li>Adicione o ovo batido aos poucos e misture bem.</li>
+                        <li>Acrescente a farinha aos poucos e misture bem (pode ser na mão ou na batedeira planetária).</li>
+                        <li>Por último, adicione o fermento e misture só para incorporá-lo à massa.</li>
+                        <li>Depois da massa bem misturada, adicione o chocolate picado.</li>
+                        <li>Forme bolinhas pequenas e asse em forno preaquecido, sobre papel manteiga, por aproximadamente 15 a 20 minutos (250° C).</li>
+
+                    </ul>
+            </div>
+
+            <div class="centralizado">
+                <h2>Após estes passos seus cookies estarão prontos para servir!</h2>  <br>  
+            </div>
+
+        </div>
+
+        <!--------------------------------------------------------------------------------------------------->
+
+            <div class="coluna left" style="background-color: #59473f">
+                <div></div>
+                <div class="fundinho">
+                    <h2>Fundadores</h2>
+
+                        <li  style="list-style: none">Letícia Santos de Oliveira</li>
+                        <li  style="list-style: none">Vinicius Fábio Amorim</li>
+
+                </div>
+            </div>
+
+        <!--------------------------------------------------------------------------------------------------->
+    
+            <div class="coluna center" style="background-color: #59473f">
+                <div></div>
+                <div class="fundinho">
+                    <h2>Navegue no site</h2>
+
+                        <li onclick="home()">Home</li> 
+                        <li onclick="receitas()">Receitas</li>
+                        <li onclick="logo()">Logo</li>
+                        <li onclick="sobre()">Quem somos</li>
+
+                </div>
+            </div>
+
+        <!--------------------------------------------------------------------------------------------------->
+    
+            <div class="coluna right" style="background-color: #59473f">
+                <div></div>
+                <div class="fundinho">
+                    <h2>Fale conosco!</h2>
+
+                        <li onclick="em()">Email</li> 
+                        <li onclick="tt()">Twitter</li> 
+                        <li onclick="fb()">Facebook</li> 
+                        <small style="text-align: left; padding-left: 200px;" >Copyright©2019 </small>
+
+                </div>
+            </div>
+
+        <!--------------------------------------------------------------------------------------------------->
+
+            <script type="text/javascript">
+                function sobre()
+                    {
+                         location.href="about.html"
+                    }
+                function home()
+                    {
+                        location.href="index.html"
+                    }
+                function receitas()
+                    {
+                        location.href="img/linkão.jpg"
+                    } 
+                function pancake()
+                    {
+                        location.href="pancake.html"
+                    }
+                function cookies()
+                    {
+                        location.href="cookie.html"
+                    }
+                function brigadeiro()
+                    {
+                        location.href="brigadeiro.html"
+                    }
+                function em()
+                    {
+                        location.href="img/linkão.jpg"
+                    }
+                function tt()
+                    {
+                        location.href="img/linkão.jpg"
+                    }
+                function fb()
+                    {
+                        location.href="img/linkão.jpg"
+                    }
+                function logo()
+                    {
+                        location.href="#top"
+                    }
+
+        </script>
+        
+    </body>
+</html>

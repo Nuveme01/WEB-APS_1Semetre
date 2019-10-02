@@ -1,0 +1,143 @@
+#nav {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    margin: 0px;
+    font-family: Montserrat;
+    background-color: #001018;
+    color: white;
+}
+
+.reta {
+    background-color: black;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    border: none;
+    color: white;
+    width: 14%;
+    font-size: 32px;
+    height: 60px;
+    transition-delay: 0,4s;
+    transition-timing-function: 0,4s;
+}
+
+.content {
+    padding: 14px;
+    padding-left: 5%;
+}
+
+.reta:hover {
+    background-color: #d48d00;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+    height: 250px;
+    margin-top: 10px;
+}
+
+header {
+    background-image: url(img/CapaIndex.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+}
+
+a:visited {
+    color: red;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.colado {
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border-radius: 25px;
+ }
+ 
+.coluna {
+    float: left;
+    padding: 0px;
+    height: 175px;
+    width: 100%;
+    padding-top: 0px;
+    position: block;
+    margin: 0;
+}
+  
+.left {
+    width: 33.33%;
+}
+
+.center {
+    width: 33.33%;
+}
+
+.right{
+    width: 33.33%;
+}
+
+.centralizado{
+    text-align: center;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .row {
+    margin: 0px;
+    padding: 0px;
+    border: 1px;
+  }
+
+  .ingredientes {
+      list-style-type: decimal;
+      line-height: 50px;
+      font-size: 18px;
+  }
+
+  .preparo {
+    line-height: 50px;
+    font-size: 18px;
+  }
+
+  .fundinho li {
+    padding-bottom: 1%;
+}
+
+.fundinho {
+    text-align: left;
+    padding-left: 30%;
+    color: white;
+}
+
+.rounded_border{
+    border: 2px solid white;
+    border-radius: 25px;
+    margin: 25px;
+}

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <title>Cookie It Yourself</title>
+        <link rel="stylesheet" href="CIYabout.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    
+    </head>
+
+    <body>
+
+        <header class="top-container">
+            <div>
+                <img src="img/Logo.png" alt="Cookie It Yourself" class="logo">
+            </div>
+        </header>
+
+        <center>
+            <div class="colado" id="nav">
+
+                <button onclick="home()" class="reta">
+                    Home
+                </button>
+
+                <button onclick="receitas()" class="reta">
+                    Receitas
+                </button>
+
+                <button onclick="sobre()" class="reta">
+                    Sobre
+                </button>
+
+            </div>
+        </center>
+
+        <div>
+            <h1>Um pouco sobre nós:</h1>
+                <p>A Cookie It Yourself é uma empresa focada em trazer sabor e diversão para seus amigos e familiares nas melhores horas do dia.</p>
+                <p>Criada em 2019 a CIY veio para ajudar todos aqueles que gostam de uma sobremesa pós refeição.</p>
+                <p>Sendo doces nossas especialidades nos esforçamos para trazer alegria e qualidade gastronómica para todas as idaddes.</p>
+        </div><br>
+
+        <div>
+            <h1>Deixe sua opinião!</h1>
+
+                <form>
+                    <p>Seu nome completo:</p>
+                    <input type="text" name="Nome completo" placeholder="Seu nome...">
+
+                    <p>Seu e-mail:</p>
+                    <input type="text" name="Email" placeholder="Email aqui...">
+
+                    <p>Sua opinião/sugestão:</p>
+                    <textarea name="Opiniões" id="" cols="40" rows="10" placeholder="Escreva aqui..."></textarea><br><br>
+
+                    <input type="submit" name="Enviar" style="width: 10%; font-size: 100%;">
+                </form>
+
+        </div>
+            
+        <!---------------------------------------------------------------------------------------------->
+
+        <img src="img/cookie_feliz.gif" alt="Cookie Feliz !:3" style="padding: 2%;">
+
+        <!---------------------------------------------------------------------------------------------->
+
+        <div class="row">
+
+        <!---------------------------------------------------------------------------------------------->
+
+            <div class="coluna left" style="background-color: #59473f">
+                <div></div>
+                <div class="fundinho">
+                    <h2>Fundadores</h2>
+
+                        <li  style="list-style: none">Letícia Santos de Oliveira</li>
+                        <li  style="list-style: none">Vinicius Fábio Amorim</li>
+              
+                </div>
+            </div>
+
+        <!---------------------------------------------------------------------------------------------->
+
+            <div class="coluna center" style="background-color: #59473f">
+                <div class="fundinho">
+                    <h2>Navegue no site</h2>
+
+                        <li onclick="home()">Home</li> 
+                        <li onclick="receitas()">Receitas</li>
+                        <li onclick="logo()">Logo</li>
+                        <li onclick="sobre()">Quem somos</li> 
+
+                </div>
+            </div>
+
+        <!---------------------------------------------------------------------------------------------->
+
+            <div class="coluna right" style="background-color: #59473f">
+                <div></div>
+                <div class="fundinho">
+                    <h2>Fale conosco!</h2>
+
+                        <li onclick="em()">Email</li> 
+                        <li onclick="tt()">Twitter</li> 
+                        <li onclick="fb()">Facebook</li>
+                        <small style="text-align: left; padding-left: 200px;" >Copyright©2019 </small>
+
+                </div>
+            </div>
+
+        <!---------------------------------------------------------------------------------------------->
+
+        </div>
+
+        <script type="text/javascript">
+            function sobre()
+                {
+                     location.href="about.html"
+                }
+            function home()
+                {
+                    location.href="index.html"
+                }
+            function receitas()
+                {
+                    location.href="img/linkão.jpg"
+                } 
+            function pancake()
+                {
+                    location.href="pancake.html"
+                }
+            function cookies()
+                {
+                    location.href="cookie.html"
+                }
+            function brigadeiro()
+                {
+                    location.href="brigadeiro.html"
+                }
+            function em()
+                {
+                    location.href="img/linkão.jpg"
+                }
+            function tt()
+                {
+                    location.href="img/linkão.jpg"
+                }
+            function fb()
+                {
+                    location.href="img/linkão.jpg"
+                }
+            function logo()
+                {
+                    location.href="#top"
+                }
+
+        </script>
+
+    </body>
+</html>

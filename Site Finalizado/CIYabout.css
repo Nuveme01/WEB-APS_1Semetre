@@ -1,0 +1,124 @@
+#nav {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+body {
+    margin: 0px;
+    font-family: Montserrat;
+    text-align: center;
+    background-color: #001018;
+    color: white;
+}
+.reta {
+      background-color: black;
+      margin: 0px;
+      padding: 0;
+      overflow: hidden;
+      text-align: center;
+      border: none;
+      color: white;
+      width: 14%;
+      font-size: 32px;
+      height: 60px;
+      transition-delay: 0,4s;
+      transition-timing-function: 0,4s;
+  }
+.reta:hover {
+  background-color: #d48d00;
+}
+.centralizar {
+    text-align: center;
+}
+
+.content {
+    padding: 14px;
+}
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+    height: 250px;
+    margin-top: 10px;
+}
+
+header {
+    background-image: url(img/CapaIndex.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+}
+
+a:visited {
+    color: red;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.colado {
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.coluna {
+    float: left;
+    padding: 0px;
+    height: 175px;
+    width: 100%;
+    padding-top: 0px;
+    position: block;
+    margin: 0;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.row {
+    margin: 0px;
+    padding: 0px;
+    border: 1px;
+}
+
+  
+.left {
+    width: 33.33%;
+}
+
+.center {
+    width: 33.33%;
+}
+
+.right{
+    width: 33.33%;
+}
+
+.direita {
+    text-align: right;
+}
+
+.fundinho li {
+    padding-bottom: 1%;
+}
+
+.fundinho {
+    text-align: left;
+    padding-left: 30%;
+    color: white;
+}
+
+p {
+    font-size: 18px;
+}

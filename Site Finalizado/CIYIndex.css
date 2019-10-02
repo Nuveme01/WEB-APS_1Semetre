@@ -1,0 +1,170 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.subtitulo {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  margin: 0;
+  padding: 50px;
+}
+
+body {
+    background-color: #001018;
+    color: white;
+    text-align: center;
+    min-width: 720px;
+}
+
+#title {
+  background-color: #9e5b2b;
+  margin: 0;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+    height: 250px;
+    margin-top: 10px;
+}
+
+.coluna {
+    float: left;
+    padding: 0px;
+    height: 500px;
+    width: 100%;
+    padding-top: 0px;
+    position: block;
+    margin: 0;
+    border: 5px solid black;
+}
+
+.coluna_fundo {
+    float: left;
+    padding: 0px;
+    height: 175px;
+    width: 100%;
+    padding-top: 0px;
+    position: block;
+    margin: 0;
+}
+
+.left {
+    width: 33.33%;
+}
+
+.center {
+    width: 33.33%;
+}
+
+.right{
+    width: 33.33%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.row {
+    margin: 0px;
+    padding: 0px;
+    border: 1px;
+  }
+
+* {
+    box-sizing: border-box;
+  }
+.reta {
+      background-color: black;
+      margin: 0px;
+      padding: 0;
+      overflow: hidden;
+      text-align: center;
+      border: none;
+      color: white;
+      width: 14%;
+      font-size: 32px;
+      height: 60px;
+      transition-delay: 0,4s;
+      transition-timing-function: 0,4s;
+  }
+.reta:hover {
+  background-color: #d48d00;
+}
+.colado {
+    padding: 0px;
+    background-color: black;
+
+}
+
+header {
+    background-image: url(img/CapaIndex.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+}
+
+body {
+    margin: 0px;
+    font-family: Montserrat;
+}
+
+#cookie {
+    background-image: url(img/cookie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 150px;
+}
+
+#pancake {
+    background-image: url(img/pancake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 150px;
+}
+
+#brigadeiro {
+    background-image: url(img/brigadeiro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 150px;
+}
+
+.fundinho li {
+    padding-bottom: 1%;
+}
+
+.fundinho {
+    text-align: left;
+    padding-left: 30%;
+    color: white;
+}
+
+.content {
+    padding: 14px;
+    padding-left: 5%;
+}
+
+@media only screen and (max-width: 800px){
+    
+    .coluna{
+        float: left;
+        padding: 0px;
+        height: 500px;
+        width: 100%;
+        padding-top: 0px;
+        position: block;
+        margin: 0;
+        border: 5px solid black;
+    }
+
+}
